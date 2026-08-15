@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Zeri — a simple graphical application manager for Linux."
+    >
+
+    <title>Zeri — Linux Application Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+<header>
+
+    <div class="container header-inner">
+
+        <a href="/" class="logo">
+            Zeri
+        </a>
+
+        <nav>
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="#features">
+                Features
+            </a>
+
+            <a href="#download">
+                Download
+            </a>
+
+            <a
+                href="https://github.com/GLTdotNS/zeri"
+                target="_blank"
+                rel="noopener"
+            >
+                Source
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<main>
+
+
+<!-- INTRO -->
+
+<section class="intro" id="about">
+
+    <div class="container">
+
+        <div class="terminal-label">
+            $ zeri
+        </div>
+
+        <h1>
+            Zeri
+        </h1>
+
+        <p class="tagline">
+            A simple graphical application manager for Linux.
+        </p>
+
+        <p class="description">
+
+            Discover installed applications, view system
+            information and uninstall software without
+            having to use the terminal.
+
+        </p>
+
+
+        <div class="actions">
+
+            <a
+                href="/downloads/zeri_1.0.0_arm64.deb"
+                download="zeri_1.0.0_arm64.deb"
+                class="button"
+            >
+                Download .deb
+            </a>
+
+            <a
+                href="#features"
+                class="button secondary"
+            >
+                Learn more
+            </a>
+
+        </div>
+
+
+        <div class="meta">
+
+            Version 1.0.0
+            <span>•</span>
+            Linux ARM64
+            <span>•</span>
+            Debian package
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ABOUT -->
+
+<section class="block">
+
+    <div class="container narrow">
+
+        <div class="section-title">
+            About
+        </div>
+
+        <h2>
+            Linux software management,
+            kept simple.
+        </h2>
+
+        <p>
+
+            Zeri was created to provide a straightforward
+            graphical way to manage applications on Linux.
+            No complicated interface, no unnecessary features
+            and no terminal commands required for everyday use.
+
+        </p>
+
+        <p>
+
+            It is primarily developed for Raspberry Pi OS
+            and Debian-based Linux distributions.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- FEATURES -->
+
+<section
+    class="block border-top"
+    id="features"
+>
+
+    <div class="container">
+
+        <div class="section-title">
+            Features
+        </div>
+
+
+        <div class="feature-list">
+
+
+            <div class="feature">
+
+                <span class="feature-number">
+                    01
+                </span>
+
+                <div>
+
+                    <h3>
+                        Application discovery
+                    </h3>
+
+                    <p>
+                        Find applications installed
+                        on your Linux system.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="feature">
+
+                <span class="feature-number">
+                    02
+                </span>
+
+                <div>
+
+                    <h3>
+                        Search
+                    </h3>
+
+                    <p>
+                        Quickly search through
+                        installed applications.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="feature">
+
+                <span class="feature-number">
+                    03
+                </span>
+
+                <div>
+
+                    <h3>
+                        Uninstall
+                    </h3>
+
+                    <p>
+                        Remove applications through
+                        a simple graphical interface.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="feature">
+
+                <span class="feature-number">
+                    04
+                </span>
+
+                <div>
+
+                    <h3>
+                        System information
+                    </h3>
+
+                    <p>
+                        Monitor RAM, CPU, disk usage
+                        and system uptime.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- DOWNLOAD -->
+
+<section
+    class="block download"
+    id="download"
+>
+
+    <div class="container">
+
+        <div class="download-box">
+
+            <div>
+
+                <div class="section-title">
+                    Download
+                </div>
+
+                <h2>
+                    Zeri 1.0.0
+                </h2>
+
+                <p>
+
+                    Debian package for Linux ARM64 systems.
+                    Suitable for Raspberry Pi and other
+                    ARM64 Debian-based distributions.
+
+                </p>
+
+            </div>
+
+
+            <div class="download-side">
+
+                <a
+                    href="/downloads/zeri_1.0.0_arm64.deb"
+                    download="zeri_1.0.0_arm64.deb"
+                    class="download-button"
+                >
+                    Download
+                </a>
+
+                <span>
+                    .deb · ARM64
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- INSTALL -->
+
+<section class="block border-top">
+
+    <div class="container narrow">
+
+        <div class="section-title">
+            Installation
+        </div>
+
+        <h2>
+            Install from the terminal
+        </h2>
+
+        <p>
+            After downloading the package:
+        </p>
+
+
+        <pre><code>sudo apt install ./zeri_1.0.0_arm64.deb</code></pre>
+
+
+        <p class="muted">
+
+            Zeri can then be launched from your application
+            menu or with:
+
+        </p>
+
+
+        <pre><code>zeri</code></pre>
+
+    </div>
+
+</section>
+
+
+
+<!-- TECH -->
+
+<section class="block border-top">
+
+    <div class="container">
+
+        <div class="section-title">
+            Technology
+        </div>
+
+
+        <div class="tech">
+
+            <span>JavaScript</span>
+            <span>Electron</span>
+            <span>Node.js</span>
+            <span>Bash</span>
+            <span>HTML</span>
+            <span>CSS</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<footer>
+
+    <div class="container footer-inner">
+
+        <div>
+            <strong>Zeri</strong>
+            <span>
+                Linux Application Manager
+            </span>
+        </div>
+
+        <div>
+            Open source software
+        </div>
+
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>
