@@ -14,7 +14,7 @@
         content="Zeri — a simple graphical application manager for Linux."
     >
 
-    <title>Zeri — Linux Application Manager</title>
+    <title>Zeri - Linux Application Manager</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -423,7 +423,30 @@
     </div>
 
 </footer>
+<script>
+    const menuButton = document.createElement("button");
 
+    menuButton.className = "menu-button";
+    menuButton.setAttribute("aria-label", "Open menu");
+    menuButton.innerHTML = "<span></span>";
+
+    const headerInner = document.querySelector(".header-inner");
+    const nav = document.querySelector("nav");
+
+    headerInner.appendChild(menuButton);
+
+    menuButton.addEventListener("click", () => {
+        menuButton.classList.toggle("active");
+        nav.classList.toggle("mobile-open");
+    });
+
+    nav.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", () => {
+            menuButton.classList.remove("active");
+            nav.classList.remove("mobile-open");
+        });
+    });
+</script>
 
 </body>
 
